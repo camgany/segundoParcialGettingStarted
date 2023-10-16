@@ -18,6 +18,13 @@ jobs:
       run: |
         npm install
 
-    - name: Pruebas
+    - name: Pruebas Jest
       run: |
         npm run test
+
+    - name: Pruebas Cypress
+      run: |
+        echo "Corriendo pruebas Cypress"
+        echo "Prubas correctas! Todo bien!"
+        echo "No tienes instalado Cypress, por favor instala Cypress para correr las pruebas"
+        exit 70
