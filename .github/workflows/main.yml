@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - name: Checkout git
-      uses: actions/checkout
+      uses: actions/checkout@v4
 
     - name: Instalar dependencias
       run: |
